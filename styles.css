@@ -27,8 +27,9 @@ h1 {
     margin: 0;
 }
 .picture {
-    height: 75px;
-    width: 400px;
+    margin-top: 40px;
+    height: 200px;
+    width: 200px;
     object-fit:cover;
     border: 5px solid white;
     border-radius: 50%;
@@ -83,4 +84,16 @@ h1 {
 #kim {
     border: 5px solid #084995;
     border-radius: 30%;
+}
+
+@media all and (max-width: 464px){
+    #activities {
+        height: 900px;
+    }
+}
+
+@media all and (max-width: 700px) and (min-width:465px){
+    #activities {
+        height: 600px;
+    }
 }
